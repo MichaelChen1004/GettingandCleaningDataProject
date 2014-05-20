@@ -28,11 +28,11 @@ From the research website, you may have a quick study on how the Human Activity 
 	  * This function will automatically perform the following steps sequentially, and eventually generate a tidy data set of average values for each measured feature by each activity and each subject:
 
 	    1.Merges the training and the test sets to create one data set.
-		- Function: CombTrainTest(trainFold, testFold)
+		* Function: CombTrainTest(trainFold, testFold)
 		
-		  * trainFold: The folder and its path which contains all training data files;
-		  * testFold:  The folder and its path which contains all test data files;
-		  * Explain:   This function will in the first place sequentially combine y_train data, subject_train data and X_train data by columns as training data set, combine y_test data, subject_test data and X_test data by columns as test data set. Then combine training data and test data by rows as a complete data set;
+		  - trainFold: The folder and its path which contains all training data files;
+		  - testFold:  The folder and its path which contains all test data files;
+		  - Explain:   This function will in the first place sequentially combine y_train data, subject_train data and X_train data by columns as training data set, combine y_test data, subject_test data and X_test data by columns as test data set. Then combine training data and test data by rows as a complete data set;
 
 	    2.Extracts only the measurements on the mean and standard deviation for each measurement.
 		* Function: ExMeanStd(dataSet, featureFile)
