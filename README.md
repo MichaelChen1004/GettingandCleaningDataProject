@@ -11,13 +11,21 @@ Data Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
 From the research website, you may have a quick study on how the Human Activity Recognition research data files were collected. While these data files are raw, to perform data analysis and extract valuable information, the first step is to make the datasets clean and tidy, the rest of this document will explain how this task will be performed using the attached R script "run_analysis.R".
 
 
-* Download the zip file from the data source link:*
+* Download the zip file from the data source link:
 
 	- Function: GetFile(fileUrl, fName = "har.zip", fileDir = ".")
 	
-	- fileUrl: The complete file URL, as in this project, it should be:
-	          https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-	- fName:   Represents the downloaded file name, has default value;
-	- fileDir: Represents the path of the unzipped folder, defaults to current working directory;
+	-- fileUrl: The complete file URL, as in this project, it should be:
+	            https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+	-- fName:   Represents the downloaded file name, has default value;
+	-- fileDir: Represents the path of the unzipped folder, defaults to current working directory;
 	
+* Collect, combine and clean the data:
+	
+	- Function: RunAnalysis(dataFolder = "./UCI HAR Dataset")
 
+	-- dataFolder: Indicates the path and folder in which all the data files are saved. Has default value;
+	-- This function will automatically perform the following steps:
+
+	   1. Merges the training and the test sets to create one data set.
+		- Function: 
