@@ -173,12 +173,161 @@
 	* The average value of the Standard Deviation of time domain BodyGyroJerkMag signal for each activity and each subject (8 decimal digits)
 		- -0.9976661 ... 0.2501732
 
+* avg.fbodyacc.mean.x	(numeric 9 digits)
+	* The average value of the mean of frequency domain BodyAcc signal on X axis for each activity and each subject (8 decimal digits)
+		- -0.9952499 ... 0.537012
 
+* avg.fbodyacc.mean.y	(numeric 10 digits)
+	* The average value of the mean of frequency domain BodyAcc signal on Y axis for each activity and each subject (9 decimal digits)
+		- -0.9890343 ... 0.5241877
 
+* avg.fbodyacc.mean.z	(numeric 9 digits)
+	* The average value of the mean of frequency domain BodyAcc signal on Z axis for each activity and each subject (8 decimal digits)
+		- -0.9894739 ... 0.280736
 
+* avg.fbodyacc.std.x	(numeric 10 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAcc signal on X axis for each activity and each subject (9 decimal digits)
+		- -0.9966046 ... 0.6585065
 
+* avg.fbodyacc.std.y	(numeric 10 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAcc signal on Y axis for each activity and each subject (9 decimal digits)
+		- -0.9906804 ... 0.5601913
 
+* avg.fbodyacc.std.z	(numeric 9 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAcc signal on Z axis for each activity and each subject (8 decimal digits)
+		- -0.9872248 ... 0.6871242
 
+* avg.fbodyacc.meanfreq.x	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyAcc signal on X axis for each activity and each subject (10 decimal digits)
+		- -0.635913 ... 0.1591236
 
+* avg.fbodyacc.meanfreq.y	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyAcc signal on Y axis for each activity and each subject (10 decimal digits)
+		- -0.3795185 ... 0.4665282
 
+* avg.fbodyacc.meanfreq.z	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyAcc signal on Z axis for each activity and each subject (10 decimal digits)
+		- -0.5201148 ... 0.4025326
+
+* avg.fbodyaccjerk.mean.x	(numeric 10 digits)
+	* The average value of the mean of frequency domain BodyAccJerk signal on X axis for each activity and each subject (9 decimal digits)
+		- -0.9946308 ... 0.4743173
+
+* avg.fbodyaccjerk.mean.y	(numeric 10 digits)
+	* The average value of the mean of frequency domain BodyAccJerk signal on Y axis for each activity and each subject (9 decimal digits)
+		- -0.9893988 ... 0.2767169
+
+* avg.fbodyaccjerk.mean.z	(numeric 10 digits)
+	* The average value of the mean of frequency domain BodyAccJerk signal on Z axis for each activity and each subject (9 decimal digits)
+		- -0.9920184 ... 0.1577757
+
+* avg.fbodyaccjerk.std.x	(numeric 10 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAccJerk signal on X axis for each activity and each subject (9 decimal digits)
+		- -0.9950738 ... 0.4768039
+
+* avg.fbodyaccjerk.std.y	(numeric 10 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAccJerk signal on Y axis for each activity and each subject (9 decimal digits)
+		- -0.9904681 ... 0.3497713
+
+* avg.fbodyaccjerk.std.z	(numeric 10 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAccJerk signal on Z axis for each activity and each subject (9 decimal digits)
+		- -0.9931078 ... -0.006236475
+
+* avg.fbodyaccjerk.meanfreq.x	(numeric 9 digits)
+	* The average value of the mean frequency of frequency domain BodyAccJerk signal on X axis for each activity and each subject (8 decimal digits)
+		- -0.576044 ... 0.3314493
+
+* avg.fbodyaccjerk.meanfreq.y	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyAccJerk signal on Y axis for each activity and each subject (10 decimal digits)
+		- -0.6019714 ... 0.1956773
+
+* avg.fbodyaccjerk.meanfreq.z	(numeric 10 digits)
+	* The average value of the mean frequency of frequency domain BodyAccJerk signal on Z axis for each activity and each subject (9 decimal digits)
+		- -0.6275555 ... 0.2301079
+
+* avg.fbodygyro.mean.x		(numeric 9 digits)
+	* The average value of the mean of frequency domain BodyGyro signal on X axis for each activity and each subject (8 decimal digits)
+		- -0.9931226 ... 0.4749624
+
+* avg.fbodygyro.mean.y		(numeric 9 digits)
+	* The average value of the mean of frequency domain BodyGyro signal on Y axis for each activity and each subject (8 decimal digits)
+		- -0.9940255 ... 0.328817
+
+* avg.fbodygyro.mean.z		(numeric 9 digits)
+	* The average value of the mean of frequency domain BodyGyro signal on Z axis for each activity and each subject (8 decimal digits)
+		- -0.9859578 ... 0.4924144
+
+* avg.fbodygyro.std.x		(numeric 8 digits)
+	* The average value of the Standard Deviation of frequency domain BodyGyro signal on X axis for each activity and each subject (7 decimal digits)
+		- -0.9946522 ... 0.1966133
+
+* avg.fbodygyro.std.y		(numeric 9 digits)
+	* The average value of the Standard Deviation of frequency domain BodyGyro signal on Y axis for each activity and each subject (8 decimal digits)
+		- -0.9943531 ... 0.6462336
+
+* avg.fbodygyro.std.z		(numeric 9 digits)
+	* The average value of the Standard Deviation of frequency domain BodyGyro signal on Z axis for each activity and each subject (8 decimal digits)
+		- -0.9867253 ... 0.5224542
+
+* avg.fbodygyro.meanfreq.x	(numeric 10 digits)
+	* The average value of the mean frequency of frequency domain BodyGyro signal on X axis for each activity and each subject (9 decimal digits)
+		- -0.3957702 ... 0.2492094
+
+* avg.fbodygyro.meanfreq.y	(numeric 10 digits)
+	* The average value of the mean frequency of frequency domain BodyGyro signal on Y axis for each activity and each subject (9 decimal digits)
+		- -0.6668148 ... 0.2731413
+
+* avg.fbodygyro.meanfreq.z	(numeric 10 digits)
+	* The average value of the mean frequency of frequency domain BodyGyro signal on Z axis for each activity and each subject (9 decimal digits)
+		- -0.5074909 ... 0.3770741
+
+* avg.fbodyaccmag.mean	(numeric 10 digits)
+	* The average value of the mean of frequency domain BodyAccMag signal for each activity and each subject (9 decimal digits)
+		- -0.9868006 ... 0.5866376
+
+* avg.fbodyaccmag.std	(numeric 11 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAccMag signal for each activity and each subject (10 decimal digits)
+		- -0.9876485 ... 0.1786846
+
+* avg.fbodyaccmag.meanfreq	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyAccMag signal for each activity and each subject (10 decimal digits)
+		- -0.312338 ... 0.4358469
+
+* avg.fbodybodyaccjerkmag.mean	(numeric 11 digits)
+	* The average value of the mean of frequency domain BodyAccJerkMag signal for each activity and each subject (10 decimal digits)
+		- -0.9939983 ... 0.5384048
+
+* avg.fbodybodyaccjerkmag.std	(numeric 11 digits)
+	* The average value of the Standard Deviation of frequency domain BodyAccJerkMag signal for each activity and each subject (10 decimal digits)
+		- -0.9943667 ... 0.3163464
+
+* avg.fbodybodyaccjerkmag.meanfreq	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyAccJerkMag signal for each activity and each subject (10 decimal digits)
+		- -0.1252104 ... 0.4880885
+
+* avg.fbodybodygyromag.mean	(numeric 11 digits)
+	* The average value of the mean of frequency domain BodyGyroMag signal for each activity and each subject (10 decimal digits)
+		- -0.9865352 ... 0.2039798
+
+* avg.fbodybodygyromag.std	(numeric 11 digits)
+	* The average value of the Standard Deviation of frequency domain BodyGyroMag signal for each activity and each subject (10 decimal digits)
+		- -0.9814688 ... 0.2366597
+
+* avg.fbodybodygyromag.meanfreq	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyGyroMag signal for each activity and each subject (10 decimal digits)
+		- -0.4566387 ... 0.4095216
+
+* avg.fbodybodygyrojerkmag.mean	(numeric 9 digits)
+	* The average value of the mean of frequency domain BodyGyroJerkMag signal for each activity and each subject (8 decimal digits)
+		- -0.9976174 ... 0.1466186
+
+* avg.fbodybodygyrojerkmag.std	(numeric 10 digits)
+	* The average value of the Standard Deviation of frequency domain BodyGyroJerkMag signal for each activity and each subject (9 decimal digits)
+		- -0.9975852 ... 0.2878346
+
+* avg.fbodybodygyrojerkmag.meanfreq	(numeric 11 digits)
+	* The average value of the mean frequency of frequency domain BodyGyroJerkMag signal for each activity and each subject (10 decimal digits)
+		- -0.1829236 ... 0.4263017
+
+		
 
