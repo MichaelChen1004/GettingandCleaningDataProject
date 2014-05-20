@@ -1,6 +1,6 @@
 ###DATA DICTIONARY - AVERAGE OF EACH FEATURE MEASUREMENT
 
-acti.name	18
+* acti.name	18
 	* Activity Names
 		- WALKING
 		- WALKING_UPSTAIRS
