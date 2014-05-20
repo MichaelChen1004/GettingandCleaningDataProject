@@ -27,35 +27,35 @@ From the research website, you may have a quick study on how the Human Activity 
 	  * dataFolder: Indicates the path and folder in which all the data files are saved. Has default value;
 	  * This function will automatically perform the following steps sequentially, and eventually generate a tidy data set of average values for each measured feature by each activity and each subject:
 
-	    1 Merges the training and the test sets to create one data set.
+	    1. Merges the training and the test sets to create one data set.
 		* Function: CombTrainTest(trainFold, testFold)
 		
 		  - trainFold: The folder and its path which contains all training data files;
 		  - testFold:  The folder and its path which contains all test data files;
 		  - Explain:   This function will in the first place sequentially combine y_train data, subject_train data and X_train data by columns as training data set, combine y_test data, subject_test data and X_test data by columns as test data set. Then combine training data and test data by rows as a complete data set;
 
-	    2 Extracts only the measurements on the mean and standard deviation for each measurement.
+	    2. Extracts only the measurements on the mean and standard deviation for each measurement.
 		* Function: ExMeanStd(dataSet, featureFile)
 
 		  - dataSet:     The complete combined data set, generated from step 1;
 		  - featureFile: The path of the file which contains complete list of measured features as named as features.txt originally;
 		  - Explain:     To filter out the mean and standard deviation measurements together with activity label and subject, the function scans the vector of feature meansurements (features.txt), find out the indices of the elements of which the values contain either "mean" or "std", then by using those indices it can figure out the indices of the columns which represent the mean and STD measuments of the complete data set, subsequently, a subset of the complete combined data set which only contains mean and STD measurements can be extracted. In the end, this function calls function AddColNames, passes the extrated mean/STD sub data set and a vector of mean/STD feature measurement names as parameters to it which is responsible to add descriptive variable names to the mean/STD sub data set, function AddColNames will be introduced under point number 4;
 
-	    3 Uses descriptive activity names to name the activities in the data set.
+	    3. Uses descriptive activity names to name the activities in the data set.
 		* Function: NameActi(dataSet, labelFile)
 
       		  - dataSet:   The extracted data set which only contains activity lable, subject and mean or STD measured features, generated from step 2;
 		  - labelFile: The path of activity definition file as named as activity_labels.txt originally;
 		  - Explain:   Function reads activity_labels.txt to a data set, then merges the mean/STD data set with this activity definition data set by the key column "label", afterward it moves the activity names column to the first column position and in the mean time drop column lable, as a result the label column was replaced by descriptive activity names column. The result of this function will give out a data set of 10299 observations and 81 variables, it is a tidy data set because it meets all the three principles as a tidy data set;
 
-	    4 Appropriately labels the data set with descriptive variable names.
+	    4. Appropriately labels the data set with descriptive variable names.
 		* Function: AddColNames(dataSet, vNameSet)
 
 		  - dataSet:  The extracted data set which only contains activity lable, subject and mean or STD measured features;
 		  - vNameSet: A character vector of which the elements will be used to name the feature measurements variables in the data set;
 		  - Explain:  The value of parameter vNameSet will be passed from function ExMeanStd since it is called within function ExMeanStd. As qualified descriptive variable names, first of all, the variable name must be able to convey the meaning of the specific variable; Secondly, the letters are all in lower case; Thirdly, the names don't contain any symbols other than "." which is used to separate the words if the name is consisted of several words. Therefore, the value of parameter vNameSet must be formatted accordingly since it is just a part of the list of feature measurements (from features.txt, please refer to the explanation in function ExMeanStd), as a result of the format, symbol "-" or "()" in the name of each feature measurement were replaced with symbol ".", and all characters are in lower case, then at this point each feature measurement variable in the data set could be re-named after each element of the formatted name vector sequentially;
 
-	    5 Create new tidy data set with the average of each variable for each activity and each subject. 
+	    5. Create new tidy data set with the average of each variable for each activity and each subject. 
 		* Function: GetAvgSet <- function(dataSet, expDest = "./UCI HAR Dataset/AvgTidySet.txt")
 		
 		  - dataSet: Data set generated by step 3;
