@@ -62,5 +62,5 @@ From the research website, you may have a quick study on how the Human Activity 
 		  - expDest: Indicate where you want to save the exported data set file, has default value;
 		  - Explain: By using group calculatin function ddply, calculates the mean value of the observations of each feature measurement column for each activity and each subject, then for the new data set, re-name each feature measurement variable by adding "avg." in front of their original names, it is a tidy data set because it meets all the three principles as a tidy data set.
 
-NOTE: For the reference of each column of the tiday dataset, please read the Code Book!
+NOTE: FOR A REFERENCE OF EACH COLUMN OF THE FINAL TIDY DATASET PLEASE READ THE CODE BOOK!
 
